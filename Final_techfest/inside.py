@@ -1,7 +1,7 @@
 from tkinter import *
 from ttkbootstrap.constants import *
 import ttkbootstrap as ttb
-# from PIL import Image, ImageTk
+from PIL import Image, ImageTk
 import customtkinter
 import storage
 import subprocess
@@ -15,12 +15,12 @@ customtkinter.set_appearance_mode("dark")
 root1=ttb.Window(themename="cyborg")
 root1.title("TEMPERATURE_ALERT(Hack-230535)")
 root1.geometry('1400x1400')
-# image1 = Image.open("Logo_techfest.png")
-# resize_image = image1.resize((300, 220))
-# img = ImageTk.PhotoImage(resize_image)
-# label1 = Label(image=img)
-# label1.image1 = img
-# label1.place(x=0, y=0)
+image1 = Image.open("Logo_techfest.png")
+resize_image = image1.resize((300, 220))
+img = ImageTk.PhotoImage(resize_image)
+label1 = Label(image=img)
+label1.image1 = img
+label1.place(x=0, y=0)
 my_label=ttb.Label(text="Temperature \n       Alert",font=("arial black",30),bootstyle="light",relief="flat")
 my_label.place(anchor = CENTER, relx = .5, rely = 0.07)
 def update_information():
