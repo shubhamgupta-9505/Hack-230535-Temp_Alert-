@@ -1,7 +1,7 @@
 
 # Temprature Alert
 
-Our given project asks user about there preferred location and their preffered range of temprature(ie.maximum temprature and min temprature), and from the above information it checks real time temprature data(via. openweather API <https://openweathermap.org/>)
+Our given project asks user about there preferred location and their preffered range of temprature (ie.maximum temprature and min temprature), and from the above information it checks real time temprature data(via. openweather API <https://openweathermap.org/>)
 and gives alert to user if there temprature exceed maximum temprature or it get decreased by min temprature.
 
 ## Table of content
